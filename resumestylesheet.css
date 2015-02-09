@@ -1,0 +1,40 @@
+body {
+    background-color: #8DCFCC;
+    font-family: 'Goudy Old Style', serif;
+}
+
+#content {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+hr {
+	width: 50%;
+	color: #000000;
+	background-color: #000000;
+	margin-left: 0%;
+	height: 2px;
+	border: 0 none;
+}
+
+h1 {
+	line-height: 10%;
+
+}
+
+h2 {
+	line-height: 10%;
+	font-size: 170%;
+}
+
+h4 {
+	line-height: 0px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+ul{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
