@@ -4,16 +4,8 @@ body {
     font-family: 'Goudy Old Style', serif;
 }
 
-#content {
-	margin-left: 20%;
-	margin-right: 20%;
-}
-
 p {
-	font-size: 150%;
-}
-
-img {
-	height: 34%;
-	width: 34%
+	font-size: 100%;
+	margin-right: 10%;
+	margin-left: 10%;
 }
