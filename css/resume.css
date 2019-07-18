@@ -4,8 +4,19 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
+@font-face {
+  font-family: Montserrat;
+  src: url(montserrat-regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(montserrat-bold.ttf);
+  font-weight: bold;
+}
+
 body {
-  font-family: 'Montserrat';
+  font-family: Montserrat;
   /* font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
   padding-top: 54px;
   color: #5C6B6B;
@@ -24,9 +35,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat';
+  font-family: Montserrat;
 /*  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-*/  font-weight: 700;
+*/font-weight: bold;
   text-transform: uppercase;
   color: #3C4747;
 }
@@ -57,7 +68,7 @@ p.lead {
 .subheading {
   text-transform: none;
   font-weight: 500;
-  font-family: 'Montserrat';
+  font-family: Montserrat;
 /*  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 */  font-size: 1.3rem;
   color: #5C6B6B;
