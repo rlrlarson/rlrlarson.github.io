@@ -99,6 +99,7 @@
             <div class="subheading mb-3">Pegasystems</div>
             <p>
               <ul>
+                <li>Promoted to the lead designer for Pega's Sales Automation product.</li>                
                 <li>Collaborate with product teams, engineering, and stakeholders to produce user-centered design solutions.</li>
                 <li>Conduct exploratory research to influence long-term product strategy.</li>
                 <li>Develop prototypes to enhance understanding, testing, and communication of design.</li>
@@ -285,21 +286,221 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="uxdesign">
       <div class="w-100">
-        <h2 class="mb-5">UX Design</h2>        
-        <h3 class="mb-0">Sales Mobile App</h3>
-        <img class="img-fluid project" id="sa-mobile" src="img/SA Mobile Home Screen for AE.png" alt="Home Screen"></img>
-        <img class="img-fluid project" id="sa-mobile" src="img/SA Mobile Pipeline List.png" alt="Pipeline List"></img>
-        <img class="img-fluid project" id="sa-mobile" src="img/SA Mobile Pipeline by Quarter.png" alt="Pipeline by Quarter"></img>
-        <p>This project involved a complete redesign of Pega’s internal sales mobile application. The sales app is used by the entire sales organization, from sales reps to the CEO. The redesign began with both an exploration of current consumer grade mobile app design and an analysis of user feedback collected on the existing sales app. We used these insights to modernize the look and feel of the app, restructure the information architecture, and add key functionality. 
-        <br>
-        <br>
-        I have managed this project throughout end-to-end product development, from research to design to usability testing, and I currently lead the pilot of this app as we test it in the field. I continuously work with the product and engineering teams to advocate for the user and ensure the final product matches the design.
-        </p>
-    
-        <h3 class="mb-0">Customized Agenda Creation</h3>
-        <img class="img-fluid project" src="img/Agenda Review.png" alt="Agenda App Review"></img>
-        <p>This project aids sales reps in scheduling client agendas for Pega’s annual conference, PegaWorld. The impetus for this agenda app came from research that was originally intended to learn more about how sales reps used the internal sales mobile app. However, because we used open-ended research methods, we identified the previously unknown user need to automate this time-consuming and tedious part of a sales reps PegaWorld preparation. We designed, tested, and prototyped a scheduling web application. I developed the prototype using Flask to connect a Postgres database of the conference sessions to the front end built in HTML, CSS, and JavaScript. Using this live prototype, the user can easily create a customized agenda for each client and automatically save it as calendar events.
-        </p>
+        <h2 class="mb-5">UX Design</h2>   
+
+        <!-- SA Mobile Project -->         
+         <a data-toggle="modal" data-target="#samobileModal">
+          <div class="project">
+            <div class="row project-images">
+              <img class="img-fluid project col-sm-4" id="sa-mobile" src="img/SAMobileProject/SA Mobile Home Screen for AE.png" alt="Home Screen"></img>
+              <img class="img-fluid project col-sm-4" id="sa-mobile" src="img/SAMobileProject/SA Mobile Pipeline List.png" alt="Pipeline List"></img>
+              <img class="img-fluid project col-sm-4" id="sa-mobile" src="img/SAMobileProject/SA Mobile Pipeline by Quarter.png" alt="Pipeline by Quarter"></img>
+            </div>
+            <button class="btn deep-dive-button">SALES MOBILE APP</button>
+          </div>
+        </a>
+
+        <!-- SA Mobile Project modal -->
+        <div class="modal fade" id="samobileModal" tabindex="-1" role="dialog" aria-labelledby="samobileModalTitle" aria-hidden="true">
+          <div class="modal-dialog modal-full" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="samobileModalTitle">Sales Mobile App</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <div class="modal-body">
+                  <div class="row">
+                    <div class="col col-md-8">
+                      <h4>Summary</h4> 
+                      <p>
+                        This project involved a complete redesign of Pega’s internal sales mobile application. The sales app is used by the entire sales organization, from sales reps to the CEO. The redesign began with both an exploration of current consumer grade mobile app design and an analysis of user feedback collected on the existing sales app. We used these insights to modernize the look and feel of the app, restructure the information architecture, and add key functionality.
+
+                        I have managed this project through the end-to-end product development, from research to design to usability testing, and I currently lead the pilot of this app as we test it in the field. I continuously work with the product and engineering teams to advocate for the user and ensure the final product matches the design.
+                      </p>
+
+                      <h4>Context</h4>
+                      <p>
+                        Sales reps are constantly traveling to meet prospects and customers, and therefore need a way to do work while in transit, but we found they weren’t using the existing sales mobile app.
+
+                        Our task was to investigate why sales reps weren’t using the current mobile app and redesign the app to improve the experience.
+                      </p>   
+
+                      <h4>Business Value</h4>
+                      <p>
+                        This mobile app would help hundreds of Pega sales reps, managers, and leaders across the world and allow them to access information and complete work on the go. By reducing the tedious, manual tasks of their day to day, sales reps can focus on the higher value aspect of their work -- building and maintaining relationships.
+
+                        The app redesign would also drive the next generation of mobile UI and interactions across all of Pega’s mobile offerings.
+                      </p>                                           
+                    </div>
+                    <div class="col col-md-4 d-flex justify-content-center">                    
+                      <video width="225px" width="487.2px" autoplay loop muted>
+                        <source src="img/SAMobileProject/SA-Mobile-Full-Prototype_AE-revisedElements.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video>                      
+                    </div>
+                  </div>
+
+                <div class="row">
+                  <div class="col-5">
+                    <img class="img-fluid col" src="img/SAMobileProject/UserInterviewScript.png" alt="User Interview Script"></img>
+                    <img class="img-fluid col" src="img/SAMobileProject/SAMobileFeaturePriortization.png" alt="Feature Prioritization"></img>
+                  </div>
+
+                  <div class="col-7">
+                    <h4>User Research</h4>
+                    <p>
+                      We began this process by conducting user research. We sent out surveys and had one on one interviews to learn user needs and pain points with their existing sales process to identify opportunities a mobile app could help. This research also addressed where the existing app fell short.
+
+                      After synthesizing the feedback, we identified patterns to set priorities for the redesign.
+
+                      <h4>Key Takeaways</h4>
+                      <ul>
+                        <li>Users didn’t think it felt like a native app</li>
+                        <li>Users found the performance to be too slow</li>
+                        <li>Users felt like they couldn’t do much of their work using the app</li>
+                      </ul>
+                      <h4>Project Goals</h4>                      
+                      <ul>
+                        <li>Revamp the look and feel to make the app appear more native and usable</li>
+                        <li>Increase performance</li>
+                        <li>Add key functionality to help sales reps complete their work on the go</li>
+                      </ul>
+
+                    </p>
+                  </div>
+                </div>
+                <br>
+
+                <h4>Design</h4>
+                <p>
+                  To update the look and feel of the app, we analyzed current leading mobile apps for patterns and interactions. After iterating through several UI theme ideas, we landed on a clean, light look to move away from the heavy, clunky feel of the previous sales app.
+                </p>
+
+
+                <div class="row">
+                  <div class="col-5 my-auto">                    
+                    <!-- images of new UI and video of interactions -->
+                    <img class="img-fluid" style="width: 48%;" src="img/SAMobileProject/Old - Manager Home.png" alt="Old Manager Home"></img>
+                    <img class="img-fluid" style="width: 48%;" src="img/SAMobileProject/Old - Manager Opps List.png" alt="Old Manager Opps List"></img>
+                  </div>
+
+                  <div class="col-1 d-flex justify-content-center my-auto" style="padding: 0px;">
+                    <img class="img-fluid" style="width: 60%; height: auto;" src="img/Arrow-right@2x.png" alt="arrow">
+                  </div>
+
+                  <div class="col-6">
+                    <img class="img-fluid" id="sa-mobile-deepdive" src="img/SAMobileProject/SA Mobile Home Screen for AE.png" alt="Home Screen"></img>
+                    <img class="img-fluid" id="sa-mobile-deepdive" src="img/SAMobileProject/SA Mobile Pipeline List.png" alt="Pipeline List"></img>
+                    <img class="img-fluid" id="sa-mobile-deepdive" src="img/SAMobileProject/SA Mobile Pipeline by Quarter.png" alt="Pipeline by Quarter"></img>
+                  </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                  <div class="col-4 d-flex justify-content-center my-auto">
+                    <video width="225px" width="487.2px" autoplay loop muted>
+                      <source src="img/SAMobileProject/SAMobile-InformationArchitecture.mov">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+
+                  <div class="col-8 my-auto">
+                    <p>
+                      The push to improve performance was largely a technical effort, but to complement that goal from the design side, we redid the information architecture of the app to mirror the user’s workflow and priorities identified in our research. This updated IA would help provide quick access to the user’s most common tasks.
+                      <br>
+                      <br>
+                      In deciding what functionality to add to the app, we assessed sales reps’ most common and important tasks that would be valuable to have on mobile. We designed each new feature in our new UI, defining new patterns where necessary to inform our mobile design system.
+                    </p>
+                  </div>
+                </div>
+                <br>
+
+                <h4>Usability Test</h4>
+                <div class="row">
+                  <div class="col-12">                    
+                    <p>
+                      We prototyped and tested the mobile app at each stage with a variety of users to test and validate the new interactions, information architecture, and added features.
+                    </p>
+                  </div>
+                  <div class="col-0">
+
+                  </div>
+                </div>
+
+                <h4>Pilot</h4>
+                <div class="row">
+                  <div class="col-12">
+                    Throughout the development of the mobile app, I worked closely with the engineers to ensure the design was implemented and make any modifications according to technical limitations.
+
+                    After the app was built, I ran a pilot to evaluate its real-world use. We involved 50 users from across the sales organization to gather feedback through in-app community boards, surveys, and user interviews. Assessing the app through real users and use cases gave invaluable insight into where the app succeeded, where modifications needed to be made, and what we should prioritize for the next release.
+                  </div>
+
+                  <div class="col-0">
+
+                  </div>
+                </div>
+                <p></p>
+
+                <h4>Current State</h4>
+                <p>
+                  The app has been rolled out to the entire sales organization of Pega and is being used by hundreds of users on a daily basis. We’ve received widespread feedback that it is a huge improvement over the last app and we are actively working on improving and expanding features.
+
+                  I am now also collaborating with our design system team to standardize the patterns introduced in the sales app as they become an established part of Pega’s design system.
+                </p> 
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Agenda Project -->         
+        <a data-toggle="modal" data-target="#agendaModal">
+          <div class="project">
+            <div class= "row project-images">
+              <img class="img-fluid project col" src="img/AgendaProject/Agenda Review.png" alt="Agenda App Review"></img>
+            </div>
+            <button class="btn deep-dive-button">CUSTOMIZED AGENDA CREATION</button>
+          </div>
+        </a>
+
+        <!-- Agenda Project modal -->
+        <div class="modal fade" id="agendaModal" tabindex="-1" role="dialog" aria-labelledby="agendaModalTitle" aria-hidden="true">
+          <div class="modal-dialog modal-full" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="agendaModalTitle">Customized Agenda Creation</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+                <div class="row">
+                  <div class="col col-md-6">
+                    <h4>Summary</h4> 
+                    <p>
+                      This project aids sales reps in scheduling client agendas for Pega’s annual conference, PegaWorld. The impetus for this agenda app came from research that was originally intended to learn more about how sales reps used the internal sales mobile app. However, because we used open-ended research methods, we identified the previously unknown user need to automate this time-consuming and tedious part of a sales reps PegaWorld preparation. We designed, tested, and prototyped a scheduling web application. I developed the prototype using Flask to connect a Postgres database of the conference sessions to the front end built in HTML, CSS, and JavaScript. Using this live prototype, the user can easily create a customized agenda for each client and automatically save it as calendar events. 
+                    </p>
+                  </div>
+                  <div class="col col-md-6">                
+                    <img class="img-fluid col" src="img/AgendaProject/Agenda Review.png" alt="Agenda App Review"></img>
+                  </div>
+                </div>
+
+<!--                 <div class="modal fade" id="agendaImageModal" tabindex="-1" role="dialog" aria-labelledby="agendaImageModalTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-full" role="document">
+                    <img class="img-fluid col" src="img/AgendaProject/Agenda Review.png" alt="Agenda App Review"></img>
+                  </div>
+                </div> -->
+
+              </div>
+            </div>
+          </div>
+        </div>
 
     </section>
 
@@ -308,28 +509,114 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="datavisualization">
       <div class="w-100">
         <h2 class="mb-5">Data Visualization</h2>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <h3 class="mb-0">Healthy Food Access</h3>
-          <a class="project-link" href="https://csci-e14a-food-atlas.herokuapp.com/" target="_blank"><button type="button" class="btn btn-info">Check it out!</button></a>
-        </div>          
-        <a class="project-link" href="https://csci-e14a-food-atlas.herokuapp.com/" target="_blank"><img class="img-fluid project" src="img/HealthyFoodAccess.png" alt="Healthy Food Access Project"></img></a>
-        <a class="project-link" href="https://csci-e14a-food-atlas.herokuapp.com/" target="_blank"><img class="img-fluid project" style="margin-top: 0px;" src="img/HealthyFoodAccess_LowerCharts.png" alt="Healthy Food Access Project Charts"></img></a>
-        <p>This project aims to derive insights about food access and attributes across the US by evaluating how these factors affect the health of a community. We worked to solve the question, ‘How can policy makers introduce policies that are the most effective at bettering the health of a county?’ This interactive visualization is designed for policy makers to better understand what changes could improve the health of their county. 
-        <br>
-        <br>
-        Policy makers can see a visual summary of the US according to variables that influence the health of each community uniquely — such as income, food access, and healthy food options — both though a full map of all counties and three more linked visualizations that show deeper details on specific variables. The user can make further discoveries on a narrowed county level with linked visualizations that can drill down into each county and the Obesity Prediction Calculator, that tests how changing certain variables can influence the health of that county. This application gives policy makers comprehensive insight into the trends and specifics of the country and each county, and provides guidance in policies they should target to best help a specific county.
-        <br>
-        <br>
-        This web application provides a solid jumping off point to further investigate this idea of county-specific food policy. To have better accuracy, one would need more recent data with more relevant variables. The inaccuracy in the obesity prediction calculator indicates that there are likely many factors that influence community health that cannot be perfectly capture by a number, reinforcing that policy makers should not rely solely on data to introduce policy into a community. They should incorporate the voice of the community to have a fuller understanding and work with the community to find effective solutions.
-        </p>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <h3 class="mb-0">Observing Culture Across the World</h3>
-          <a class="project-link" href="https://rlrlarson.github.io/DrunkenWorld/" target="_blank"><button type="button" class="btn btn-info">Check it out!</button></a>
+        <!-- Healthy Food Access Project Project -->         
+        <a data-toggle="modal" data-target="#foodAccessModal">
+          <div class="project">
+            <div class= "row project-images">
+              <img class="img-fluid project col" style="margin-bottom: 0px;" src="img/HealthyFoodAccessProject/HealthyFoodAccess.png" alt="Healthy Food Access Project"></img>
+              <img class="img-fluid project col" style="margin-top: 0px;" src="img/HealthyFoodAccessProject/HealthyFoodAccess_LowerCharts.png" alt="Healthy Food Access Project Charts"></img>
+            </div>
+            <button class="btn deep-dive-button">HEALTHY FOOD ACCESS</button>
+          </div>
+        </a>
+
+        <!-- Healthy Food Access Project modal -->
+        <div class="modal fade" id="foodAccessModal" tabindex="-1" role="dialog" aria-labelledby="foodAccessModalTitle" aria-hidden="true">
+          <div class="modal-dialog modal-full" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="foodAccessModalTitle">Healthy Food Access</h5> 
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>         
+              </div>
+              <div class="modal-body">
+
+                <div class="row">
+                  <div class="col col-md-6">
+                    <h4>Summary</h4> 
+                    <p>
+                      This project was done with a team as part of a final project for a Harvard Extension School course. It aims to derive insights about food access and attributes across the US by evaluating how these factors affect the health of a community. We worked to solve the question, ‘How can policy makers introduce policies that are the most effective at bettering the health of a county?’ This interactive visualization is designed for policy makers to better understand what changes could improve the health of their county.
+                    </p>
+
+                    <h4>Background</h4> 
+                    <p>
+                      There are many factors that influence the health of a community -- ranging from culture, income, food access, healthy food options, welfare programs, etc. Each county differs across these variables and therefore changing certain variables (for example, adding more grocery stores or reducing the number of fast food restaurants) affect the health of the county uniquely from others. 
+                    </p>
+                  </div>
+                  <div class="col col-md-6">  
+                    <a class="project-link" href="https://csci-e14a-food-atlas.herokuapp.com/" target="_blank"><button type="button" class="btn btn-info">Check it out!</button></a>                    
+                    <img class="img-fluid col" style="margin-bottom: 0px;" src="img/HealthyFoodAccessProject/HealthyFoodAccess.png" alt="Healthy Food Access Project"></img>
+                    <img class="img-fluid col" style="margin-top: 0px;" src="img/HealthyFoodAccessProject/HealthyFoodAccess_LowerCharts.png" alt="Healthy Food Access Project Charts"></img>
+                  </div>
+                </div>
+
+                <h4>Process</h4>
+                <p>
+                  To accomplish our goal, we used data from the USDA Food Environment Atlas. This dataset contains data at the county level and has many features, including access to restaurants, grocery stores, farmers markets and welfare programs, as well as demographic and health data. We first focused on the back-end data to refine our project goal. We conducted exploratory data analysis, applied feature engineering, and created our data model to establish how a user could best digest the data and how we could best predict the health of a county. Then, we designed and built our front-end web application to navigate the data and created a prediction calculator where a user could interact with our data model.
+                </p>
+
+                <h4>Web Application Overview</h4>
+                <p>
+                  Policy makers can see a visual summary of the US according to variables that influence the health of each community uniquely — such as income, food access, and healthy food options — both though a full map of all counties and three more linked visualizations that show deeper details on specific variables. The user can make further discoveries on a narrowed county level with linked visualizations that can drill down into each county and the Obesity Prediction Calculator, that tests how changing certain variables can influence the health of that county. This application gives policy makers comprehensive insight into the trends and specifics of the country and each county, and provides guidance in policies they should target to best help a specific county.
+                </p>
+
+                <h4>Challenges</h4>
+                <p>
+                  One of the most immediate challenges in this project was our dataset. After selecting features, we found that about half of our data had at least one null value in each county, so the entire county had to be dropped from the prediction model. Having all of the county data would have made our model more accurate and could show the user more accurate trends. Another challenge was figuring out at what level our model should predict. We originally wanted to have separate models for each state with the understanding that there were many cultural factors not captured in the data, and were hoping to account for this by narrowing our focus to a state level. However, we only had county level data and most states have too few counties to build an accurate model around.
+                </p>
+
+                <h4>Conclusion</h4>
+                <p>
+                  This web application provides a solid jumping off point to further investigate this idea of county-specific food policy. To have better accuracy, one would need more recent data with more relevant variables. The inaccuracy in the obesity prediction calculator indicates that there are likely many factors that influence community health that cannot be perfectly capture by a number, reinforcing that policy makers should not rely solely on data to introduce policy into a community. They should incorporate the voice of the community to have a fuller understanding and work with the community to find effective solutions.
+                </p>
+
+              </div>
+            </div>
+          </div>
         </div>
-        <a class="project-link" href="https://rlrlarson.github.io/DrunkenWorld/" target="_blank"><img class="img-fluid project" src="img/WHO_WorldViz.png" alt="Observing Culture Across the World Project"></img></a>
-        <p>This project explores alcohol consumption around the world. There exist certain stereotypes about which countries drink which types of alcohol and we wanted to build a platform to either confirm or debunk these stereotypes with this visualization. While we had fun exploring alcohol stereotypes, this interactive visualization reveals how alcohol consumption reflects the world’s history and culture through a unique perspective. We used data from the World Health Organization, which collected the average consumption of wine, beer, and spirits in liters per capita per year for every country, spanning from 1960 to 2010. 
-        </p>
+
+        <!-- Observing Culture Across the World Project -->         
+        <a data-toggle="modal" data-target="#alcCultureMapModal">
+          <div class="project">
+            <div class= "row project-images">
+              <img class="img-fluid project col" src="img/CultureAcrossWorldProject/WHO_WorldViz.png" alt="Observing Culture Across the World Project"></img>
+            </div>
+            <button class="btn deep-dive-button">OBSERVING CULTURE ACROSS THE WORLD</button>
+          </div>
+        </a>
+
+        <!-- Observing Culture Across the World Project modal -->
+        <div class="modal fade" id="alcCultureMapModal" tabindex="-1" role="dialog" aria-labelledby="alcCultureMapModalTitle" aria-hidden="true">
+          <div class="modal-dialog modal-full" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="alcCultureMapModalTitle">Observing Culture Across the World</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+                <div class="row">
+                  <div class="col col-md-6">
+                    <h4>Summary</h4> 
+                    <p>
+                      This project explores alcohol consumption around the world. There exist certain stereotypes about which countries drink which types of alcohol and we wanted to build a platform to either confirm or debunk these stereotypes with this visualization. While we had fun exploring alcohol stereotypes, this interactive visualization reveals how alcohol consumption reflects the world’s history and culture through a unique perspective. We used data from the World Health Organization, which collected the average consumption of wine, beer, and spirits in liters per capita per year for every country, spanning from 1960 to 2010.
+                    </p>
+                  </div>
+                  <div class="col col-md-6">  
+                    <a class="project-link" href="https://rlrlarson.github.io/DrunkenWorld/" target="_blank"><button type="button" class="btn btn-info">Check it out!</button></a>                   
+                    <img class="img-fluid col" src="img/CultureAcrossWorldProject/WHO_WorldViz.png" alt="Observing Culture Across the World Project"></img>
+                  </div>
+                </div>
+            
+              </div>
+            </div>
+          </div>
+        </div>        
 
       </div>
 

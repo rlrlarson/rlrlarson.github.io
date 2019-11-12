@@ -56,6 +56,10 @@ h3 {
   text-transform: none;
 }
 
+h4 {
+  font-size: 1rem;
+}
+
 /*.mb-5 {
   font-size: 3rem;
 }*/
@@ -225,18 +229,35 @@ span#honors {
 
 img.project {
   width: 100%;
-  margin-top: 8px;
+/*  margin-top: 8px;
   margin-bottom: 8px;
-  box-shadow: 2px 2px 6px rgba(92, 107, 107, 0.2);
+  box-shadow: 2px 2px 6px rgba(92, 107, 107, 0.2);*/
 }
 
-img.project#sa-mobile {
-  margin-right: 8px;
-  width: 31%;
+#sa-mobile-deepdive {
+/*  margin-right: 8px;
+  width: 31%;*/
+/*  width: 33%;
+  margin: 0px;*/
+
+  width: 32%;
+  height: auto;
+
+}
+
+@media (max-width: 768px) {
+  #sa-mobile-deepdive {
+
+    width: 100%;
+    height: auto;
+
+  }
 }
 
 .project-link {
- /* padding-top: 12px;*/
+  float: right;
+  padding-right: 15px;
+  padding-bottom: 15px;
 }
 
 .btn-info:hover {
@@ -247,6 +268,58 @@ img.project#sa-mobile {
 .btn-info {
   background-color: #3C4747;
   border-color: #3C4747;
+}
+
+.modal-full {
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+.modal-content {
+  min-height: 100vh;
+}
+
+.modal-body {
+  height: calc(100vh - 210px);
+  overflow-y: auto;
+}
+
+.project {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+.project-images {
+  transition: opacity .35s ease;
+}
+
+.deep-dive-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FFFFFF;
+/*  border-color: #3C4747;
+*/  border: none;
+  color: #3C4747;
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.project:hover .project-images{
+  opacity: 0.4;
+}
+
+.project:hover .deep-dive-button {
+  opacity: 1;
+}
+
+.deep-dive-button:hover {
+  color: #3C4747;
 }
 
 
