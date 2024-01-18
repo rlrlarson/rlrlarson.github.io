@@ -76,7 +76,7 @@ p.lead {
   font-family: Montserrat;
 /*  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 */  font-size: 1.3rem;
-  color: #5C6B6B;
+  color: #384242;
 }
 
 .subheading#header {
@@ -90,7 +90,7 @@ p.lead {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #3C4747;
+  background-color: #2B3232;
   color: #fff !important;
   border-radius: 100%;
   text-align: center;
