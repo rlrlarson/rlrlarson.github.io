@@ -214,6 +214,7 @@ section.resume-section .resume-item .resume-date {
 
 .text-primary {
   color: #008478 !important;
+  font-weight: 600;
 }
 
 a {
