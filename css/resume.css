@@ -122,6 +122,7 @@ p.lead {
 
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
+  color: rgba(255,255,255,.8);
 }
 
 @media (min-width: 992px) {
@@ -174,11 +175,9 @@ p.lead {
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
-    color: rgba(255,255,255,.8);
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
-    color: rgba(255,255,255,1);
   }
 }
 
