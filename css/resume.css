@@ -270,8 +270,8 @@ img.project {
 }
 
 .btn-info {
-  background-color: #3C4747;
-  border-color: #3C4747;
+  background-color: #2B3232;
+  border-color: #2B3232;
 }
 
 .modal-full {
@@ -306,9 +306,9 @@ img.project {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #FFFFFF;
-/*  border-color: #3C4747;
+/*  border-color: #2B3232;
 */  border: none;
-  color: #3C4747;
+  color: #2B3232;
   font-size: 1.5rem;
   opacity: 0;
   transition: opacity .35s ease;
@@ -323,7 +323,7 @@ img.project {
 }
 
 .deep-dive-button:hover {
-  color: #3C4747;
+  color: #2B3232;
 }
 
 
