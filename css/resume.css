@@ -178,7 +178,7 @@ p.lead {
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
-  #sideNav .navbar-dark .navbar-nav .nav-link {
+  .navbar-dark .navbar-nav .nav-link {
     color: rgba(255,255,255,.8) !important;
   }
 }
