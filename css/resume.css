@@ -179,7 +179,7 @@ p.lead {
     display: block;
   }
   .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,.8) !important;
+    color: rgba(255,255,255,.8);
   }
 }
 
