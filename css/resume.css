@@ -299,7 +299,6 @@ img.project {
   position: relative;
   cursor: pointer;
   margin-bottom: 1em;
-  padding-top: 16px;
 }
 
 .project-design {
@@ -312,6 +311,7 @@ img.project {
   background-color: #CCE2E0;
   border-radius: 8px;
   margin: 16px;
+  padding-top: 16px;
 }
 
 .row-project {
