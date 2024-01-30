@@ -307,6 +307,10 @@ img.project {
   border-radius: 8px;
 }
 
+.row-project {
+  margin-bottom: 1em;
+}
+
 .project-images {
   transition: opacity .35s ease;
 }
