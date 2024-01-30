@@ -298,7 +298,7 @@ img.project {
 .project {
   position: relative;
   cursor: pointer;
-  margin: 1em;
+  margin-bottom: 1em;
   background-color: #B3D3D0;
   padding: 16px;
   border-radius: 8px;
