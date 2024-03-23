@@ -72,6 +72,12 @@ h6 {
   color: #4F6363;
 }
 
+.badge-light {
+  color: #4F6363;
+  background-color: #EEF4F3;
+  font-family: Poppins;
+}
+
 /*.mb-5 {
   font-size: 3rem;
 }*/
