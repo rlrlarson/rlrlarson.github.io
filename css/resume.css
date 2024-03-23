@@ -18,7 +18,7 @@
 @font-face {
   font-family: Montserrat;
   src: url(Montserrat-Medium.ttf);
-  font-weight: medium;
+  font-weight: lighter;
 }
 
 body {
@@ -67,8 +67,8 @@ h4 {
 }
 
 h6 {
-  font-size: .75rem;
-  font-weight: medium;
+  font-size: .8rem;
+  font-weight: lighter;
 }
 
 /*.mb-5 {
