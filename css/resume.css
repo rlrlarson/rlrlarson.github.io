@@ -16,9 +16,9 @@
 }
 
 @font-face {
-  font-family: Montserrat;
-  src: url(Montserrat-Medium.ttf);
-  font-weight: 500;
+  font-family: Poppins;
+  src: url(Poppins-Medium.ttf);
+  font-weight: normal;
 }
 
 body {
@@ -67,8 +67,8 @@ h4 {
 }
 
 h6 {
+  font-family: Poppins;
   font-size: .8rem;
-  font-weight: 500;
   color: #4F6363;
 }
 
