@@ -1188,6 +1188,83 @@
 
       </div>
 
+      <div class="row">
+        <div class="col col-project">
+          
+          <!-- Healthy Food Access Project Project -->         
+          <a data-toggle="modal" data-target="#foodAccessModal">
+            <div class="project">
+              <div class= "row project-images">
+                <img class="img-fluid project col" style="margin-bottom: 0px;" src="img/HealthyFoodAccessProject/HealthyFoodAccess.png" alt="Healthy Food Access Project"></img>
+                <img class="img-fluid project col" style="margin-top: 0px;" src="img/HealthyFoodAccessProject/HealthyFoodAccess_LowerCharts.png" alt="Healthy Food Access Project Charts"></img>
+              </div>
+              <button class="btn deep-dive-button">View Case Study</button>
+              <h4>Visualizing Food Access</h4>
+              <span class="badge badge-pill badge-light">data visualization</span>
+              <span class="badge badge-pill badge-light">data analysis/span>
+              <span class="badge badge-pill badge-light">web application</span>
+            </div>
+          </a>
+
+          <!-- Healthy Food Access Project modal -->
+          <div class="modal fade" id="foodAccessModal" tabindex="-1" role="dialog" aria-labelledby="foodAccessModalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-full" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="foodAccessModalTitle">Healthy Food Access</h5> 
+
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>         
+                </div>
+                <div class="modal-body">
+
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                      <h4>Summary</h4> 
+                      <p>
+                        This project was done with a team as part of a final project for a Harvard Extension School course. It aims to derive insights about food access and attributes across the US by evaluating how these factors affect the health of a community. We worked to solve the question, ‘How can policy makers introduce policies that are the most effective at bettering the health of a county?’ This interactive visualization is designed for policy makers to better understand what changes could improve the health of their county.
+                      </p>
+
+                      <h4>Background</h4> 
+                      <p>
+                        There are many factors that influence the health of a community -- ranging from culture, income, food access, healthy food options, welfare programs, etc. Each county differs across these variables and therefore changing certain variables (for example, adding more grocery stores or reducing the number of fast food restaurants) affect the health of the county uniquely from others. 
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-6">  
+                      <!-- <a class="project-link" href="https://csci-e14a-food-atlas.herokuapp.com/" target="_blank"><button type="button" class="btn btn-info">Check it out!</button></a> -->                   
+                      <img class="img-fluid col" id="healthyfood-deepdive" style="margin-bottom: 0px;" src="img/HealthyFoodAccessProject/HealthyFoodAccess.png" alt="Healthy Food Access Project"></img>
+                      <img class="img-fluid col" id="healthyfood-deepdive" style="margin-top: 0px; margin-bottom: 1em;" src="img/HealthyFoodAccessProject/HealthyFoodAccess_LowerCharts.png" alt="Healthy Food Access Project Charts"></img>
+                    </div>
+                  </div>
+
+                  <h4>Process</h4>
+                  <p>
+                    To accomplish our goal, we used data from the USDA Food Environment Atlas. This dataset contains data at the county level and has many features, including access to restaurants, grocery stores, farmers markets and welfare programs, as well as demographic and health data. We first focused on the back-end data to refine our project goal. We conducted exploratory data analysis, applied feature engineering, and created our data model to establish how a user could best digest the data and how we could best predict the health of a county. Then, we designed and built our front-end web application to navigate the data and created a prediction calculator where a user could interact with our data model.
+                  </p>
+
+                  <h4>Web Application Overview</h4>
+                  <p>
+                    Policy makers can see a visual summary of the US according to variables that influence the health of each community uniquely — such as income, food access, and healthy food options — both though a full map of all counties and three more linked visualizations that show deeper details on specific variables. The user can make further discoveries on a narrowed county level with linked visualizations that can drill down into each county and the Obesity Prediction Calculator, that tests how changing certain variables can influence the health of that county. This application gives policy makers comprehensive insight into the trends and specifics of the country and each county, and provides guidance in policies they should target to best help a specific county.
+                  </p>
+
+                  <h4>Challenges</h4>
+                  <p>
+                    One of the most immediate challenges in this project was our dataset. After selecting features, we found that about half of our data had at least one null value in each county, so the entire county had to be dropped from the prediction model. Having all of the county data would have made our model more accurate and could show the user more accurate trends. Another challenge was figuring out at what level our model should predict. We originally wanted to have separate models for each state with the understanding that there were many cultural factors not captured in the data, and were hoping to account for this by narrowing our focus to a state level. However, we only had county level data and most states have too few counties to build an accurate model around.
+                  </p>
+
+                  <h4>Conclusion</h4>
+                  <p>
+                    This web application provides a solid jumping off point to further investigate this idea of county-specific food policy. To have better accuracy, one would need more recent data with more relevant variables. The inaccuracy in the obesity prediction calculator indicates that there are likely many factors that influence community health that cannot be perfectly capture by a number, reinforcing that policy makers should not rely solely on data to introduce policy into a community. They should incorporate the voice of the community to have a fuller understanding and work with the community to find effective solutions.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
     <!-- Removing Agenda Project
       <div class="row">
